@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Евгения Веденеева](https://up.htmlacademy.ru/adaptive/21/user/1163057).
-* Наставник: `Неизвестно`.
+* Наставник: [Денис Власов](https://htmlacademy.ru/profile/amaringo).
 
 ---
 
@@ -9,7 +9,7 @@
 
 Полезный файл:
 
-- [Contributing.md](Contributing.md) — руководство по внесению изменений.
+- [Contributing.md](Contributing.md) — руководствопо внесению изменений.
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `.stylelintrc`, `.travis.yml`, `package-lock.json`, `package.json`._
