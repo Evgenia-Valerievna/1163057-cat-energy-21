@@ -9,3 +9,4 @@ http://lesscss.org
 less/
 | - style.less
 | - [другие *.less файлы]
+| - [или подпапки с другими *.less файлами]
