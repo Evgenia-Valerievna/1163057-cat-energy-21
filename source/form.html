@@ -32,31 +32,27 @@
       <h1 class="page-main__title">Подбор программы</h1>
       <section class="main-form">
         <h2 class="questionnaire">Заполните анкету, и мы подберем программу питания для вашего кота</h2>
-        <form method="post" action="https://echo.htmlacademy.ru">
-          <div class="page-main__cat-info">
-            <label for="name">Имя:*</label>
-            <input type="text" name="name" id="name" required placeholder="Барсик">
-            <label for="weight">Вес (кг):*</label>
-            <input type="text" name="weight" id="weight" required placeholder="7">
-            <label for="age">Возраст (лет):</label>
-            <input type="text" name="age" id="age" placeholder="7">
+        <form class="form" method="post" action="https://echo.htmlacademy.ru">
+          <div class="form__cat-info">
+            <label>Имя:*<input type="text" name="name" required placeholder="Барсик"></label>
+            <label>Вес (кг):*<input type="text" name="weight" required placeholder="7"></label>
+            <label>Возраст (лет):<input type="text" name="age" placeholder="7"></label>
           </div>
-        <div class="page-main__cat-programm">
-          <label><input name="program" type="radio" value="nedzen" checked>Похудение</label>
-          <label><input name="program" type="radio" value="dzen">Набор массы</label>
-          <label><input name="program" type="radio" value="pdzen">Не знаю (нужен ваш совет)</label>
+        <div class="form__cat-programm">
+          <label><input name="program" type="radio" value="Похудение" checked>Похудение</label>
+          <label><input name="program" type="radio" value="Набор массы">Набор массы</label>
+          <label><input name="program" type="radio" value="Не знаю (нужен ваш совет)">Не знаю (нужен ваш совет)</label>
         </div>
-        <div class="page-main__contacts">
-          <p><strong>Контактные данные (владельца кота)</strong></p>
+        <div class="form__contacts">
+          <p class="form__contacts__p">Контактные данные (владельца кота)</p>
           <label>Имя:*<input type="email" required placeholder="kuklachev@gmail.com"></label>
           <label>E-mail:*<input type="tel" required placeholder="8 (960) 900-60-90"></label>
         </div>
-        <div class="page-main__comment">
-          <p><strong>Комментарий</strong></p>
-          <textarea name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
+        <div class="form__comment">
+          <label>Комментарий<textarea name="comment" placeholder="Расскажите обо всех повадках кота"></textarea></label>
         </div>
-        <div class="page-main__additionally">
-          <p><strong>Дополнительно</strong></p>
+        <div class="form__additionally">
+          <p class="form__contacts__p">Дополнительно</p>
           <label><input type="checkbox" name="food" value="Сахарозаменитель" checked>Сахарозаменитель</label>
           <label><input type="checkbox" name="food" value="Питьевая вода">Питьевая вода</label>
           <label><input type="checkbox" name="food" value="Молоко">Молоко</label>
