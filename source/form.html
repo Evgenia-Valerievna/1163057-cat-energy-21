@@ -11,7 +11,6 @@
         <img src="img/logo-mobile.svg" width="500" height="60" alt="Логотип Кэт энерджи">
       </a>
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button"></button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
@@ -34,9 +33,9 @@
         <h2 class="questionnaire">Заполните анкету, и мы подберем программу питания для вашего кота</h2>
         <form class="form" method="post" action="https://echo.htmlacademy.ru">
           <div class="form__cat-info">
-            <label>Имя:*<input type="text" name="name" required placeholder="Барсик"></label>
-            <label>Вес (кг):*<input type="text" name="weight" required placeholder="7"></label>
-            <label>Возраст (лет):<input type="text" name="age" placeholder="7"></label>
+            <label>Имя:*<input class="input" type="text" name="name" required placeholder="Барсик"></label>
+            <label>Вес (кг):*<input class="input" type="text" name="weight" required placeholder="7"></label>
+            <label>Возраст (лет):<input class="input" type="text" name="age" placeholder="7"></label>
           </div>
         <div class="form__cat-programm">
           <label><input name="program" type="radio" value="Похудение" checked>Похудение</label>
@@ -45,12 +44,12 @@
         </div>
         <div class="form__contacts">
           <p class="form__heading">Контактные данные (владельца кота)</p>
-          <label>Имя:*<input type="email" required placeholder="kuklachev@gmail.com"></label>
-          <label>E-mail:*<input type="tel" required placeholder="8 (960) 900-60-90"></label>
+          <label>Имя:*<input class="input" type="email" required placeholder="kuklachev@gmail.com"></label>
+          <label>E-mail:*<input class="input" type="tel" required placeholder="8 (960) 900-60-90"></label>
         </div>
         <div class="form__comment">
           <label class="form__heading">Комментарий</label>
-          <textarea name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
+          <textarea class="input" name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
         </div>
         <div class="form__additionally">
           <p class="form__heading">Дополнительно</p>
@@ -59,7 +58,7 @@
           <label><input type="checkbox" name="food" value="Молоко">Молоко</label>
           <label><input type="checkbox" name="food" value="Витамины">Витамины</label>
         </div>
-        <button type="submit">Отправить заявку</button>
+        <button class="catalog__button application" type="submit">Отправить заявку</button>
         <p>* — Обязательные поля</p>
       </form>
     </section>
@@ -78,30 +77,22 @@
       <div class="page-footer__sitename sitename">
         <img src="img/logo-footer.svg" width="128" height="24" alt="Название сайта">
       </div>
-      <div class="page-footer__social social">
-        <ul class="social__list">
+      <div class="page-footer__social">
+        <ul class="page-footer__list social">
           <li class="social__item">
-            <a class="social__link social__link--vkontakte" href="#">
-              <img src="img/icon-vk.svg" width="22" height="12" alt="Ссылка на Вконтакте">
-            </a>
+            <a class="social__item--vk" href="#"></a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--instagram" href="#">
-              <img src="img/icon-insta.svg" width="15" height="15" alt="Ссылка на Инстаграм">
-            </a>
+            <a class="social__item--instagram" href="#"></a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--facebook" href="#">
-              <img src="img/icon-fb.svg" width="10" height="17" alt="Ссылка на Фейсбук">
-            </a>
+            <a class="social__item--fb" href="#"></a>
           </li>
         </ul>
       </div>
       <div class="page-footer__academy academy">
         <a class="academy__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-        <a class="academy__icon" href="https://htmlacademy.ru/intensive/adaptive">
-          <img src="img/htmlacademy.svg" width="27" height="34" alt="Логотип Академии">
-        </a>
+        <a class="academy__icon" href="https://htmlacademy.ru/intensive/adaptive"></a>
       </div>
     </footer>
   </body>
