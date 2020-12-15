@@ -1,47 +1,7 @@
-@font-face {
-  font-family: "Oswald";
-  src: url("../fonts/oswaldmedium.woff"),
-       url("../fonts/oswaldmedium.woff2"),
-       url("../fonts/oswaldregular.woff"),
-       url("../fonts/oswaldregular.woff2");
-      }
-
-@basic-green: #68B738;
-
-@basic-grey: #F2F2F2;
-
-.base-font () {
-  font-family: "Oswald";
-  font-weight: normal;
-  font-style: normal;
+.body {
+  font-family: @font-face;
 }
 
-.arial-font () {
-  font-family: Arial, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #444444;
-}
-
-.green-button () {
-  width: 280px;
-  height: 40px;
-  background-color: #68B738;
-}
-
-.form-text () {
-  .base-font ();
-  font-size: 16px;
-  line-height: 18px;
-  text-transform: uppercase;
-  color: #444444;
-}
-
-.application () {
-  .base-font ();
-  .green-button ();
-  color: white;
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
+.visually-hidden {
+  display: none;
 }

@@ -1,5 +1,5 @@
 .catalog-list {
-  list-style: none;
+  .list-reset ();
 }
 
 .catalog-list__item {
@@ -8,26 +8,24 @@
   background-color: @basic-grey;
 }
 
-.catalog-list__title {
-  .base-font ();
+.catalog__title {
   font-size: 24px;
   line-height: 37px;
   text-transform: uppercase;
 }
 
-.catalog-list__program-description {
-  font-family: Arial, sans-serif;
+.catalog__program-description {
+  font-family: "Arial", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
   line-height: 18px;
-  color: #444444;
+  color: @dark-grey;
 }
 
 .catalog-list__link {
-  .base-font ();
   text-decoration: none;
-  color: #000000;
+  color: @basic-black;
   font-size: 16px;
   line-height: 16px;
   text-align: center;

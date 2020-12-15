@@ -1,12 +1,11 @@
 .main-catalog__list {
-  list-style: none;
+  .list-reset ();
 }
 
 .main-catalog__image {
-  .base-font ();
   font-size: 16px;
   line-height: 20px;
-  color: #222222;
+  color: @special-grey;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -15,17 +14,16 @@
   .arial-font ();
   font-size: 12px;
   line-height: 16px;
-  color: #444444;
+  color: @dark-grey;
 }
 
-.application {
+.main-catalog__button {
   .application ();
   border: none;
 }
 
 .main-catalog__b {
-  .base-font ();
-  color: #111111;
+  color: @special-black;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
@@ -37,14 +35,13 @@
   line-height: 16px;
 }
 
-.show-all {
+.main-catalog__showall {
   .green-button ();
   background-color: @basic-grey;
 }
 
 .main-catalog__products-button {
-  .base-font ();
-  color: #444444;
+  color: @dark-grey;
   text-decoration: none;
   font-size: 14px;
   line-height: 20px;
